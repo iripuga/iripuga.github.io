@@ -1,2 +1,2 @@
 # iripuga.github.io
-Testing github pages
+Interactive Simon Says recreated as in [keep talking game](https://keeptalkinggame.com/).
