@@ -21,7 +21,7 @@ s+='</div>'
 s+='</div>'
 s+='<div id="msg" style="display: flex; align-items: center; justify-content: center; text-align:center; position:absolute; left: 40%; top:40%; font: 9vmin Arial; width:20%; height:20%; color:white; pointer-events: none;"></div>'
 s+='</div>'
-s+='<canvas id="canvas1" style=" width:'+w+'px; height:'+h+'px; left: 0px; top: 0px; border: none; pointer-events: none; z-index:2;"></canvas>';s+=optPopHTML();s+='<div style="text-align: right;">';s+='<div id="copyrt" style="font: 10px Arial; font-weight: bold; color: #acf; ">&copy; 2019 MathsIsFun.com  v'+version+'</div>';s+='</div>';s+='</div>';s+='</div>';document.write(s);var el=document.getElementById('canvas1');var ratio=3;el.width=w*ratio;el.height=h*ratio;el.style.width=w+"px";el.style.height=h+"px";g=el.getContext("2d");g.setTransform(ratio,0,0,ratio,0,0);my.buttons=document.getElementsByClassName('simon-button')
+s+='<canvas id="canvas1" style=" width:'+w+'px; height:'+h+'px; left: 0px; top: 0px; border: none; pointer-events: none; z-index:2;"></canvas>';s+=optPopHTML();s+='<div style="text-align: right;">';s+='</div>';s+='</div>';s+='</div>';document.write(s);var el=document.getElementById('canvas1');var ratio=3;el.width=w*ratio;el.height=h*ratio;el.style.width=w+"px";el.style.height=h+"px";g=el.getContext("2d");g.setTransform(ratio,0,0,ratio,0,0);my.buttons=document.getElementsByClassName('simon-button')
 my.strictQ=false
 for(var button=0;button<my.buttons.length;button++){var btn=my.buttons[button]
 btn.onmousedown=buttonClick;btn.style.opacity=my.btnOffOpacity}
