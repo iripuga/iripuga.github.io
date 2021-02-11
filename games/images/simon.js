@@ -10,7 +10,7 @@ s+='</style>'
 my.sndHome=(document.domain=='localhost')?'/mathsisfun/images/sounds/':'/images/sounds/'
 s+='<audio id="sndWin" src="'+my.sndHome+'fanfare.mp3" preload="auto"></audio>';s+='<audio id="sndAuto" src="'+my.sndHome+'snap.mp3" preload="auto"></audio>';s+='<audio id="sndFlip" src="'+my.sndHome+'pop.mp3" preload="auto"></audio>';s+='<audio id="sndYes" src="'+my.sndHome+'up.mp3" preload="auto"></audio>';my.snds=[];my.soundQ=true
 for(var i=0;i<4;i++){s+='<audio id="chime'+i+'" src="'+my.sndHome+'simon'+(i+1)+'.mp3" preload="auto"></audio>';}
-s+='<div id="main" style="position:relative; width:100%;  margin:auto; display:block; ">';s+='<div style="position: relative; border-radius: 50%; margin: auto; padding: 5vmin; width: 75vmin; height: 75vmin; background: rgba(0,0,49,0.6); ">'
+s+='<div id="main" style="position:relative; width:100%;  margin:auto; display:block; ">';s+='<div style="position: relative; border-radius: 50%; margin: auto; padding: 5vmin; width: 60vmin; height: 60vmin; background: rgba(0,0,49,0.6); ">'
 s+='<div style="position: relative; border-radius: 50%; width: 100%; height: 100%; overflow: hidden;">'
 s+='<button class="simon-button simon-1" id="0"></button>'
 s+='<button class="simon-button simon-2" id="1"></button>'
