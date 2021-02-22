@@ -1,7 +1,7 @@
 # Glasna žogica
 
 - nastavite si zabavno virtualno ozadje ali pripomoček na zoom-u
-- podajamo si nevidno žogico na zoom-u
+- podajamo si nevidno žogico
 - prvi igralec drži navidezno žogico v roki, 
 - reče ime tistega, ki mu "vrže" navidezno žogico in spusti naključen zvok “whee,” “boing,” “poof,” “blah,” “shayayayaya”, "lidli", "bloop", "blabla"
 - kdor "ujame" žogico mora ponoviti naključen zvok in z rokami pokazati, da "drži" žogico
